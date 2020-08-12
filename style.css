@@ -1,0 +1,107 @@
+* {
+    font-family: 'Baloo 2', cursive;
+}
+
+body{
+    background-color: gainsboro;
+}
+.navbar {
+    width: 100%;
+    display: block;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: dodgerblue;
+}
+
+button {
+    float: right;
+    border: none;
+    background: none;
+    height: 100%;
+    width: 6%;
+}
+
+button:hover {
+    background-color: rgb(22, 110, 197);
+}
+
+section {
+    height: 100vh;
+    display: block;
+}
+
+.fab, .fas {
+    padding: 10px;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#contact {
+    align-items: center;
+    justify-content: center;
+    padding-left: 45%;
+    padding-right: 40%;
+    padding-top: 19%;
+}
+
+.heading {
+    margin-top: 15%
+}
+
+.img {
+    width: 340px;
+    height: 270px;
+    border-radius: 10%;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+}
+
+.about {
+    padding-right: 20%;
+}
+
+.aboutrow {
+    margin-left: 15%;
+    margin-top: 12%;
+}
+
+.aboutdiv {
+    border-left: 2px solid dodgerblue;
+    border-radius: 0;
+}
+
+.contcard {
+    border-left: 2px solid dodgerblue;
+    border-radius: 0;
+}
+
+.controw {
+    padding-left: 5px;
+}
+
+.projImg {
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+}
+
+.proRow {
+    display: block;
+    margin-left: 37%;
+    margin-top: 5%;
+    padding-right: 40%
+}
+
+.proRow2 {
+    display: block;
+    margin-left: 37%;
+    margin-top: 4%;
+    padding-right: 40%;
+}
